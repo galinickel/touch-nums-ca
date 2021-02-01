@@ -1,0 +1,191 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  font-family: 'Kreon', serif;
+  color: #666666;
+
+}
+
+h1 {
+  position: absolute;
+  margin-left: 65vh;
+  font-size: 42px;
+  top: 10%;
+  z-index: 500;
+}
+
+.victory {
+  top: 300px;
+  margin-left: 58vh;
+
+
+}
+
+.play-again {
+  top: 400px;
+  margin-left: 86vh;
+}
+
+.stopwatch {
+  position: absolute;
+  font-size: 24px;
+  top: 2%;
+  left: 5%;
+  height: 50px;
+  width: 300px;
+}
+
+.game {
+  height: 75%;
+  width: 75%;
+  background-image: linear-gradient(white, wheat);
+  padding-top: 5%;
+  position: fixed;
+  opacity: 75%;
+  margin-left: 11%;
+  margin-top: 3%;
+  border-radius: 9%;
+
+}
+
+.table-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.table4 {
+  position: absolute;
+  left: 59vh;
+  padding: 25px;
+  margin-top: 25px;
+
+
+}
+
+.table6 {
+  position: absolute;
+  right: 40%;
+  margin-top: 25px;
+
+
+}
+
+.table5 {
+  margin-top: 25px;
+  margin-left: 2vh;
+
+}
+
+td {
+
+  background-image: linear-gradient(white, lavender);
+  border: 1px solid wheat;
+  cursor: pointer;
+  border-radius: 15%;
+  font-size: 36px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  animation: gradient 10s ease infinite;
+
+}
+
+td:hover {
+  background-image: linear-gradient(white, lightgreen);
+
+}
+
+.wrong {
+  background-image: linear-gradient(white, red);
+}
+
+.correct {
+  background-image: linear-gradient(white, lightgreen);
+  cursor: default;
+
+}
+.button-container { 
+  position: fixed;
+}
+button {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(-45deg, #f9f9f9, #ee7752);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  color: #666666;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 38px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin-left: 62vh;
+  margin-bottom: 20vh;
+  margin-top: 30%;
+  font-family: 'Kreon', serif;
+  animation: gradient 10s ease infinite;
+  transition: all .5s ease;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+form {
+  margin-top: 5%;
+  display: block;
+  margin-left: 62vh;
+  font-size: 42px;
+}
+
+label {
+  padding: 2%;
+}
+
+input {
+  padding: 25px;
+}
+
+
+
+button:link,
+button:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  position: absolute;
+  top: 20vh;
+  left: 30vh;
+  z-index: 500;
+  font-size: 36px;
+}
